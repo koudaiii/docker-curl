@@ -8,5 +8,6 @@ Alpine image with ops tool installed.
 - postgresql-client
 - tcpdump
 - redis-cli
+- jq
 
 Available from docker hub as koudaiii/curl
