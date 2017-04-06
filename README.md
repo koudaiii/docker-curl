@@ -1,7 +1,7 @@
 Docker Alpine Curl
 --
 
-Alpine image with ops tool installed.
+Alpine image(TIMEZONE Asia/Tokyo) with ops tool installed.
 
 - curl
 - bash
