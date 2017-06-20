@@ -6,6 +6,6 @@ RUN apk --no-cache --update add tzdata \
     && cp /usr/share/zoneinfo/$TIMEZONE /etc/localtime \
     && apk del tzdata
 
-RUN apk add --no-cache --update --virtual=deps1 curl bash postgresql-client tcpdump redis jq
+RUN apk add --no-cache --update --virtual=deps1 curl bash postgresql-client tcpdump redis jq  bind-tools
 
 CMD ["/usr/bin/curl"]
