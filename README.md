@@ -9,5 +9,6 @@ Alpine image(TIMEZONE Asia/Tokyo) with ops tool installed.
 - tcpdump
 - redis-cli
 - jq
+- dig
 
 Available from docker hub as koudaiii/curl
