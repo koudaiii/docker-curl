@@ -10,5 +10,7 @@ Alpine image(TIMEZONE Asia/Tokyo) with ops tool installed.
 - redis-cli
 - jq
 - dig
+- memcached-tool
+- perl
 
 Available from docker hub as koudaiii/curl
